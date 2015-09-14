@@ -7,15 +7,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login AmHugry"
-        android:id="@+id/button_login"
+        android:id="@+id/login_button_amhungry"
         android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/login_button_amhungry"
+        android:layout_alignRight="@+id/login_button_amhungry"
+        android:layout_alignEnd="@+id/login_button_amhungry"
+        android:layout_alignLeft="@+id/login_button_amhungry"
+        android:layout_alignStart="@+id/login_button_amhungry" />
     <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+        android:id="@+id/login_button_amhungry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/button_login"
+        android:layout_marginBottom="151dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
