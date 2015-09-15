@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:background="#4fc3f7">
+=======
+    android:layout_height="match_parent">
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
 
     <Button
         android:layout_width="wrap_content"

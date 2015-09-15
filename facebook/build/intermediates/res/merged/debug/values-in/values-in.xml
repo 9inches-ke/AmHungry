@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/values-in/messenger_button_strings.xml -->
+=======
+    <!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/values-in/messenger_button_strings.xml -->
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
     <eat-comment/>
     <string name="messenger_send_button_text">Kirim</string>
 </resources>

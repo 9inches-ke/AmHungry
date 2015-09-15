@@ -26,4 +26,8 @@
   android:layout_height="59dp"
   android:background="@drawable/messenger_button_blue_bg_round"
   />
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/layout/messenger_button_send_blue_round.xml -->
+=======
+<!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/layout/messenger_button_send_blue_round.xml -->
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782

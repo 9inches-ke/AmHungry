@@ -1,5 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
@@ -16,3 +17,9 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>
+=======
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782

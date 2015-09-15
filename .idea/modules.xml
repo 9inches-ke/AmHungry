@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/AmHungry-master.iml" filepath="$PROJECT_DIR$/AmHungry-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/AmHungry.iml" filepath="$PROJECT_DIR$/AmHungry.iml" />
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
     </modules>

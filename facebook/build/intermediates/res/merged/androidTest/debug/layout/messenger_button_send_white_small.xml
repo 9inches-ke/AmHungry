@@ -29,4 +29,8 @@
     style="@style/MessengerButtonText.White.Small"
     />
 </FrameLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/layout/messenger_button_send_white_small.xml --><!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/build/intermediates/bundles/debug/res/layout/messenger_button_send_white_small.xml -->
+=======
+<!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/layout/messenger_button_send_white_small.xml --><!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/build/intermediates/bundles/debug/res/layout/messenger_button_send_white_small.xml -->
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782

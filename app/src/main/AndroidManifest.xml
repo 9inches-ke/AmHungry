@@ -11,7 +11,11 @@
 
         <activity
             android:name=".activity.LoginActivity"
+<<<<<<< HEAD
             android:label="@string/app_name">
+=======
+            android:label="@string/app_name" >
+>>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
