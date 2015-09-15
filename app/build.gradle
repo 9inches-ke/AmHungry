@@ -22,10 +22,8 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.0.1'
-<<<<<<< HEAD
-    compile 'com.android.support:recyclerview-v7:22.2.+'
-=======
 
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+    compile 'com.android.support:recyclerview-v7:22.2.+'
+
     compile project(':facebook')
 }
