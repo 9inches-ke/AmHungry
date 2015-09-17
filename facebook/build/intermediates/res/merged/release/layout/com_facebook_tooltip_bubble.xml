@@ -72,8 +72,4 @@
       android:src="@drawable/com_facebook_tooltip_blue_bottomnub"
       />
 </RelativeLayout>
-<<<<<<< HEAD
-<!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/layout/com_facebook_tooltip_bubble.xml -->
-=======
-<!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/layout/com_facebook_tooltip_bubble.xml -->
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+<!-- From: file:/C:/Users/Bestiize/Desktop/project-kekm/facebook/res/layout/com_facebook_tooltip_bubble.xml -->

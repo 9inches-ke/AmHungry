@@ -3,14 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
+
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
     <string name="app_id">925605937510775</string>
 
 
-=======
-    <string name="app_id">925605937510775</string>
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+
 </resources>
