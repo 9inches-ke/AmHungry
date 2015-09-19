@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/values-pl/strings.xml -->
-=======
-    <!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/values-pl/strings.xml -->
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+    <!-- From: file:/C:/Users/Bestiize/Desktop/project-kekm/facebook/res/values-pl/strings.xml -->
     <eat-comment/>
     <string name="com_facebook_image_download_unknown_error">Nieoczekiwany błąd podczas pobierania obrazu.</string>
     <string name="com_facebook_internet_permission_error_message">Logowanie się do sieci wymaga zezwolenia na dostęp do INTERNETU</string>
@@ -22,11 +18,7 @@
     <string name="com_facebook_send_button_text">Wyślij</string>
     <string name="com_facebook_share_button_text">Udostępnij</string>
     <string name="com_facebook_tooltip_default">Nowość! Masz pełną kontrolę – określ, jakie informacje chcesz udostępniać aplikacjom.</string>
-<<<<<<< HEAD
-    <!-- From: file:/C:/Users/Bestiize/Desktop/kekm/AmHungry-master/facebook/res/values-pl/messenger_button_strings.xml -->
-=======
-    <!-- From: file:/C:/Users/Bestiize/Desktop/project/AmHungry/facebook/res/values-pl/messenger_button_strings.xml -->
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+    <!-- From: file:/C:/Users/Bestiize/Desktop/project-kekm/facebook/res/values-pl/messenger_button_strings.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">Wyślij</string>
 </resources>

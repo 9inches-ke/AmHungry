@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="C:\Users\Bestiize\Desktop\kekm\AmHungry-master\facebook\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Bestiize\Desktop\kekm\AmHungry-master\facebook\src\debug\assets"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="C:\Users\Bestiize\Desktop\project\AmHungry\facebook\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Bestiize\Desktop\project\AmHungry\facebook\src\debug\assets"/></dataSet></merger>
->>>>>>> e38c4d1f0dd8088c42bacb9cf0208a9613e3c782
+<merger version="3"><dataSet config="main"><source path="C:\Users\Bestiize\Desktop\project-kekm\facebook\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Bestiize\Desktop\project-kekm\facebook\src\debug\assets"/></dataSet></merger>

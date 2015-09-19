@@ -3,8 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    android:background="#4fc3f7">
-
+    android:background="#3b92d1">
 
     <Button
         android:layout_width="wrap_content"
@@ -12,17 +11,13 @@
         android:text="Login AmHugry"
         android:id="@+id/login_button_amhungry"
         android:layout_gravity="center_horizontal"
-        android:layout_above="@+id/login_button_amhungry"
-        android:layout_alignRight="@+id/login_button_amhungry"
-        android:layout_alignEnd="@+id/login_button_amhungry"
-        android:layout_alignLeft="@+id/login_button_amhungry"
-        android:layout_alignStart="@+id/login_button_amhungry" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
     <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button_amhungry"
+        android:id="@+id/login_button_facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="151dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/login_button_amhungry"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
