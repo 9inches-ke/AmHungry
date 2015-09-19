@@ -7,7 +7,10 @@ import android.content.pm.Signature;
 import android.util.Base64;
 import android.util.Log;
 
+import com.example.bestiize.amhungry.manager.MenuManager;
 import com.example.bestiize.amhungry.manager.NewsManager;
+import com.example.bestiize.amhungry.models.CategoryMenu;
+import com.example.bestiize.amhungry.models.Menu;
 import com.example.bestiize.amhungry.models.News;
 import com.facebook.FacebookSdk;
 import com.facebook.Profile;
@@ -22,6 +25,7 @@ import java.util.List;
  */
 public class AmhungryApplication extends Application{
     private NewsManager newsManager;
+    private MenuManager menuManager;
    // private httpservice
 
 
@@ -57,6 +61,23 @@ public class AmhungryApplication extends Application{
         newsManager.addNews(new News("https://s3-ap-southeast-1.amazonaws.com/photo.wongnai.com/photos/2015/09/16/5f17b2e1663845afa5602109d82b7613.jpg"));
         newsManager.addNews(new News("https://s3-ap-southeast-1.amazonaws.com/photo.wongnai.com/photos/2015/09/16/5f17b2e1663845afa5602109d82b7613.jpg"));
 
+        menuManager =new MenuManager(getApplicationContext());
+
+
+        menuManager.addMenu(new Menu("Home",R.drawable.ic_home));
+        menuManager.addMenu(new Menu("Profile",R.drawable.ic_configprofile));
+        menuManager.addMenu(new Menu("Facebook",R.drawable.ic_facebook));
+        menuManager.addMenu(new CategoryMenu("Find"));
+        menuManager.addMenu(new Menu("Seafood",R.drawable.ic_seafood));
+        menuManager.addMenu(new Menu("Suggestion",R.drawable.ic_lke));
+        menuManager.addMenu(new Menu("Popular",R.drawable.ic_heart));
+        menuManager.addMenu(new CategoryMenu("Community"));
+        menuManager.addMenu(new Menu("Share",R.drawable.ic_share));
+        menuManager.addMenu(new Menu("Photo",R.drawable.ic_photo));
+
+
+
+
 
         Log.d("NewsManager","Application inited");
 
@@ -69,5 +90,11 @@ public class AmhungryApplication extends Application{
         this.newsManager = newsManager;
     }
 
+    public MenuManager getMenuManager() {
+        return menuManager;
+    }
 
+    public void setMenuManager(MenuManager menuManager) {
+        this.menuManager = menuManager;
+    }
 }

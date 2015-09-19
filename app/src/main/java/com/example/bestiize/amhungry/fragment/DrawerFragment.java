@@ -8,9 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.example.bestiize.amhungry.R;
+import com.example.bestiize.amhungry.activity.MenuListAdapter;
+import com.example.bestiize.amhungry.view.MenuListItem;
 import com.facebook.Profile;
 import com.squareup.picasso.Picasso;
 
@@ -21,8 +24,12 @@ public class DrawerFragment extends Fragment{
     private Profile profile;
     private RelativeLayout relativeLayout;
     private RelativeLayout.LayoutParams relativeLayoutParams;
+    private ListView listView;
+    private MenuListAdapter menuListAdapter;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
 
     }
 
@@ -37,6 +44,13 @@ public class DrawerFragment extends Fragment{
         relativeLayout = (RelativeLayout)rootView.findViewById(R.id.nav_header_container);
         relativeLayoutParams=(RelativeLayout.LayoutParams)relativeLayout.getLayoutParams();
         relativeLayoutParams.setMargins(0,getStatusBarHeight(),0,0);
+
+
+        listView = (ListView) rootView.findViewById(R.id.listview_menu);
+        menuListAdapter = new MenuListAdapter(getActivity().getApplicationContext());
+        listView.setAdapter(menuListAdapter);
+
+
         return rootView;
     }
     public int getStatusBarHeight() {
