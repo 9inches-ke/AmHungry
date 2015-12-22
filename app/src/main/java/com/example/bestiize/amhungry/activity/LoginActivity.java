@@ -51,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             protected void onCurrentProfileChanged(Profile oldProfile, Profile currentProfile) {
                 displayWelcomeMessage(currentProfile);
+
             }
         };
         mTokenTracker.startTracking();

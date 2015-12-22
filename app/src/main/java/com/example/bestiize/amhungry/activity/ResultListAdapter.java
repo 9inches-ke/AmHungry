@@ -1,4 +1,3 @@
-
 package com.example.bestiize.amhungry.activity;
 
 import android.content.Context;
@@ -15,14 +14,15 @@ import com.example.bestiize.amhungry.view.ResultListItem;
 import java.util.List;
 
 /**
- * Created by Bestiize on 9/17/2015.
+ * Created by Bestiize on 15/11/2558.
  */
-public class NewsListAdapter extends BaseAdapter {
+public class ResultListAdapter extends BaseAdapter {
+
     private AmhungryApplication amhungryApplication;
     private Context context;
     private List<Restaurant> restaurantList;
 
-    public NewsListAdapter(Context context,List<Restaurant> restaurantList) {
+    public ResultListAdapter(Context context,List<Restaurant> restaurantList) {
         this.amhungryApplication=(AmhungryApplication)context;
         this.context = context;
         this.restaurantList = restaurantList;
@@ -50,17 +50,17 @@ public class NewsListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        NewsListItem item = createListItem(convertView);
+        ResultListItem item = createListItem(convertView);
         item.fill(restaurantList.get(position),position);
         return item;
     }
-    public  NewsListItem  createListItem(View convertView){
+    public ResultListItem createListItem(View convertView){
 
         if(convertView == null || !(convertView instanceof NewsListItem)){
-            return new  NewsListItem (this.context);
+            return new ResultListItem(this.context);
         }
 
-        return ( NewsListItem )convertView;
+        return (ResultListItem)convertView;
 
     }
 }

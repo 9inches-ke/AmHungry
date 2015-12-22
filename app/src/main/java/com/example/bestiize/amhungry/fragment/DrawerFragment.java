@@ -1,12 +1,14 @@
 package com.example.bestiize.amhungry.fragment;
 
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -49,7 +51,16 @@ public class DrawerFragment extends Fragment{
         listView = (ListView) rootView.findViewById(R.id.listview_menu);
         menuListAdapter = new MenuListAdapter(getActivity().getApplicationContext());
         listView.setAdapter(menuListAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==2){
+                    Intent launchIntent = getActivity().getPackageManager().getLaunchIntentForPackage("com.facebook.katana");
+                    startActivity(launchIntent);
 
+                }
+            }
+        });
 
         return rootView;
     }

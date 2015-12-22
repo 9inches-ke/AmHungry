@@ -12,13 +12,11 @@ import com.example.bestiize.amhungry.manager.NewsManager;
 import com.example.bestiize.amhungry.models.CategoryMenu;
 import com.example.bestiize.amhungry.models.Menu;
 import com.example.bestiize.amhungry.models.News;
+import com.example.bestiize.amhungry.services.http.AmhungryHTTPService;
 import com.facebook.FacebookSdk;
-import com.facebook.Profile;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Bestiize on 15/9/2558.
@@ -26,9 +24,18 @@ import java.util.List;
 public class AmhungryApplication extends Application{
     private NewsManager newsManager;
     private MenuManager menuManager;
+    private AmhungryHTTPService amhungryHTTPService;
+
    // private httpservice
 
 
+    public AmhungryHTTPService getAmhungryHTTPService() {
+        return amhungryHTTPService;
+    }
+
+    public void setAmhungryHTTPService(AmhungryHTTPService amhungryHTTPService) {
+        this.amhungryHTTPService = amhungryHTTPService;
+    }
 
     public void onCreate() {
         super.onCreate();
@@ -47,6 +54,7 @@ public class AmhungryApplication extends Application{
         } catch (NoSuchAlgorithmException e) {
 
         }
+        this.amhungryHTTPService = new AmhungryHTTPService(this) ;
 
 
 
