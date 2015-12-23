@@ -19,7 +19,7 @@ import retrofit.Retrofit;
  */
 public class AmhungryHTTPService {
 
-    public static final String OISHI_BASE_URL = "http://10.2.38.211:8181";
+    public static final String AMHUNGRY_BASE_URL = "http://10.2.35.144:8181";
 
     private Retrofit retrofit;
     private Context context;
@@ -34,7 +34,7 @@ public class AmhungryHTTPService {
         this.context = context;
 
         retrofit = new Retrofit.Builder()
-                .baseUrl(OISHI_BASE_URL)
+                .baseUrl(AMHUNGRY_BASE_URL )
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
