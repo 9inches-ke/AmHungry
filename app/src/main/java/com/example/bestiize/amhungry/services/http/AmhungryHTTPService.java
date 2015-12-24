@@ -19,7 +19,7 @@ import retrofit.Retrofit;
  */
 public class AmhungryHTTPService {
 
-    public static final String AMHUNGRY_BASE_URL = "http://10.2.35.144:8181";
+    public static final String AMHUNGRY_BASE_URL = "http://158.108.34.32:8080";
 
     private Retrofit retrofit;
     private Context context;
